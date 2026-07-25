@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fine Arts project of 2024 - JadenDavisson</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+	    
+	    <div id="para">
+	        <h2>Fine Arts 2024? [Galaxy Explorer] <img src="the4H.png" width="32" height="32" alt="the4H"></h2>
+	        <p>A monochrome drawing of the box art for the remake of The Galaxy Explorer. The original Galaxy Explorer is a classic and recognizable lego set from the 1970s.</p>
+	        <audio id="musogg" src="https://codehs.com/uploads/8549e0ae92102bab5f1fef3f6df64d4c" loop></audio>
+	        <h1><img id="clickImage" src="ship.png" style="cursor: pointer;"  width=480 height=320 alt="[Imagine a cool spaceship]"></h1>
+	    </div>
+	    <img src="blank.png" width="10" height="10">
+	    <a href="javascript:history.back()">
+        <img src="buttonBack.png" alt="Go back?"></a>
+        <a href="index.html">
+        <img src="buttonHome.png" alt="Home"></a>
+	    <a href="gallery.html">
+        <img src="buttonContent.png" alt="Gallery"></a>
+        <br>
+	    <div class="dropdown">
+            <button class="dropbtn">More Projects like This:</button>
+            <div class="dropdown-menu">
+            <a href="fart2.html">2025</a>
+            <a href="fart3.html">2026</a>
+        </div>
+        <script>
+	        const clickImage = document.getElementById('clickImage');
+	        const musogg = document.getElementById('musogg');
+	        clickImage.addEventListener('click', () => {
+	            if (musogg.paused) {
+	                musogg.play();
+	            } else {
+	                musogg.pause();
+	            }
+	        });
+	   </script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lego Project of 2025 - JadenDavisson</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+	    
+	    <div id="para">
+	        <h2>Lego 2025 [MilkyWay] <img src="the4H.png" width="32" height="32" alt="the4H"></h2>
+	        <p>A purchased kit, lego set  No. 31212, LEGO Art The Milky Way Galaxy. This lego set features the milkyway galaxy, and a few easter eggs, including some of my own design.</p>
+	        <audio id="musogg" src="https://codehs.com/uploads/f80b9ec7b7a8cfeed45d482aadb42e20" loop></audio>
+	        <h1><img id="clickImage" src="milk.png" style="cursor: pointer;"  width=480 height=320 alt="galaxy"></h1>
+	    </div>
+	    <img src="blank.png" width="10" height="10">
+	    <a href="javascript:history.back()">
+        <img src="buttonBack.png" alt="Go back?"></a>
+        <a href="index.html">
+        <img src="buttonHome.png" alt="Home"></a>
+	    <a href="gallery.html">
+        <img src="buttonContent.png" alt="Gallery"></a>
+        <br>
+	    <div class="dropdown">
+            <button class="dropbtn">More Projects like This:</button>
+            <div class="dropdown-menu">
+            <a href="lego0.html">2023</a>
+            <a href="lego1.html">2024</a>
+            <a href="lego3.html">2026</a>
+        </div>
+        <script>
+	        const clickImage = document.getElementById('clickImage');
+	        const musogg = document.getElementById('musogg');
+	        clickImage.addEventListener('click', () => {
+	            if (musogg.paused) {
+	                musogg.play();
+	            } else {
+	                musogg.pause();
+	            }
+	        });
+	   </script>
+    </body>
+</html>

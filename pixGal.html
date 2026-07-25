@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Indie Game - JadenDavisson</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body background="scrollingplanets.gif">
+	    
+	    <div id="para">
+	        <h2>Sprite&Texture game test<img src="myMark.png"  width="32" height="32" alt=" - redskapDragon"></h2>
+	        
+	        <p>In the following years, I plan on programming a video game in my free time. This is a page showing some sprite testing for said game.</p>
+	        <audio id="musogg" src="https://codehs.com/uploads/badc209b87b0a5f9d2d927f0b9d53fe0" loop></audio>
+	        <h1><img id="clickImage" src="theFinalPlaceholder--testMap.png" style="cursor: pointer;"  width=480 height=320 alt="soliggo worlds"></h1>
+	        <img src="blank.png" width="10" height="10">
+	    <a href="javascript:history.back()">
+        <img src="buttonBack.png" alt="Go back?"></a>
+        <a href="index.html">
+        <img src="buttonHome.png" alt="Home"></a>
+	    <a href="gallery.html">
+        <img src="buttonContent.png" alt="Gallery"></a>
+        </div>
+	    
+        <script>
+	        const clickImage = document.getElementById('clickImage');
+	        const musogg = document.getElementById('musogg');
+	        clickImage.addEventListener('click', () => {
+	            if (musogg.paused) {
+	                musogg.play();
+	            } else {
+	                musogg.pause();
+	            }
+	        });
+	   </script>
+    </body>
+</html>

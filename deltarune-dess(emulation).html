@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>* (It's a red guitar.)</title>
+		<link rel="stylesheet" type="text/css" href="delta.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+	    <audio id="musogg" src="https://codehs.com/uploads/ffd8f7f2a31d777a85851b4958fcc410" loop></audio>
+	    <div id=darkWorld>
+	        <h1><img id="girl" src="guitar.gif" width="340" height="350" alt="A guitar played once played by the girl lost to the dark."></img></h1>
+	   </div>
+	   <script>
+	        const girl = document.getElementById('girl');
+	        const musogg = document.getElementById('musogg');
+	        girl.addEventListener('click', () => {
+	            if (musogg.paused) {
+	                musogg.play();
+	            } else {
+	                musogg.pause();
+	            }
+	        });
+	   </script>
+	   </body>

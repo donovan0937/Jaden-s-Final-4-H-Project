@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>template - JadenDavisson</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body background="marioground.png">
+	    
+	    <div id="para">
+	        <h2>Title</h2>
+	        <p>Description, min of 2 sentences.</p>
+	        <audio id="musogg" src="https://codehs.com/uploads/df18e394ccd6595a8c4e891684bae445" loop></audio>
+	        <h1><img id="clickImage" src="noImage.png" style="cursor: pointer;"  width=480 height=320 alt="placeholder"></h1>
+	    </div>
+	    <img src="blank.png" width="10" height="10">
+	    <a href="javascript:history.back()">
+        <img src="buttonBack.png" alt="Go back?"></a>
+        <a href="index.html">
+        <img src="buttonHome.png" alt="Home"></a>
+	    <a href="gallery.html">
+        <img src="buttonContent.png" alt="Gallery"></a>
+        <br>
+	    <div class="dropdown">
+            <button class="dropbtn">More Projects like This:</button>
+            <div class="dropdown-menu">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </div>
+        <script>
+	        const clickImage = document.getElementById('clickImage');
+	        const musogg = document.getElementById('musogg');
+	        clickImage.addEventListener('click', () => {
+	            if (musogg.paused) {
+	                musogg.play();
+	            } else {
+	                musogg.pause();
+	            }
+	        });
+	   </script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lego Project of 2024 - JadenDavisson</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+	    
+	    <div id="para">
+	        <h2>Lego 2024 [Green Hill Zone] <img src="the4H.png" width="32" height="32" alt="the4H"></h2>
+	        <p>A purchased kit, lego set  No. 21331, Sonic the Hedgehog™ – Green Hill Zone. This lego set features a classic verion of Sonic and Eggman, as well as a few badnicks.</p>
+	        <audio id="musogg" src="https://codehs.com/uploads/1ef932e9c3c9fee92ea8e1a4de81ef10" loop></audio>
+	        <h1><img id="clickImage" src="https://www.lego.com/cdn/cs/set/assets/bltfeb76408e9eb5095/21331_Prod.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2" width=480 height=320 style="cursor: pointer;"  alt="sanic"></h1>
+	    </div>
+	    <img src="blank.png" width="10" height="10">
+	    <a href="javascript:history.back()">
+        <img src="buttonBack.png" alt="Go back?"></a>
+        <a href="index.html">
+        <img src="buttonHome.png" alt="Home"></a>
+	    <a href="gallery.html">
+        <img src="buttonContent.png" alt="Gallery"></a>
+        <br>
+	    <div class="dropdown">
+            <button class="dropbtn">More Projects like This:</button>
+            <div class="dropdown-menu">
+            <a href="lego0.html">2023</a>
+            <a href="lego2.html">2025</a>
+            <a href="lego3.html">2026</a>
+        </div>
+        <script>
+	        const clickImage = document.getElementById('clickImage');
+	        const musogg = document.getElementById('musogg');
+	        clickImage.addEventListener('click', () => {
+	            if (musogg.paused) {
+	                musogg.play();
+	            } else {
+	                musogg.pause();
+	            }
+	        });
+	   </script>
+    </body>
+</html>
