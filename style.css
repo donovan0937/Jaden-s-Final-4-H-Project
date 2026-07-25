@@ -1,0 +1,115 @@
+body{
+    height: 96vh;
+	background-color:#d7dbde;
+	border-top: thick solid teal;
+	border-right: thick solid teal;
+	border-left: thick solid #039a9a;
+	border-bottom: thick solid #039a9a;
+}
+html{
+    height: 100vh;
+    border-top: thick solid teal;
+	border-right: thick solid teal;
+	border-left: thick solid #039a9a;
+	border-bottom: thick solid #039a9a;
+}
+h1{
+	text-align: center;
+	color: #000305;
+	font-family: Impact, sans-serif;
+}
+h2{
+	text-align: center;
+	color: #000305;
+	font-family: "Comic Sans MS", cursive;
+}
+h3{
+	text-transform: uppercase;
+	font-family: Fixedsys, monospace;
+	color: #000300;
+}
+p{
+	text-align: left;
+	font-family: Courier;
+	color: #000305;
+}
+p1{
+	color: #111305;
+	font-family: Courier;
+	text-align: center;
+}
+#para{
+	background-color: #f4f6f7;
+	min-height: 200px;
+	margin-left: 5vh;
+	margin-right: 5vh;
+	border-right: thick solid #f4f6f7;
+	border-left: thick solid #f4f6f7;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+	max-width: 680px;
+}
+
+#footer{
+	background-size: cover;
+    background-position: center bottom;
+    margin-top: auto;
+	height: 100px;
+    width: 100%;
+    background: #303030;
+}
+
+::selection{
+	background: #333333;
+	color: #00ff77;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #333333;
+    font-family: Courier;
+    color: #00ff77;
+    font-size: 16px;
+    margin-left: 16px;
+    border-width: 2px;
+    border-top: solid teal;
+	border-right: solid teal;
+	border-left: solid #039a9a;
+	border-bottom: solid #039a9a;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #039a9a;
+    font-family: Courier;
+}
+.dropdown-menu a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-right: solid teal;
+}
+
+.dropdown:hover .dropdown-menu {
+    margin-left: 32px;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #00ff77;
+}

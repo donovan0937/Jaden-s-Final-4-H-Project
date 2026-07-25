@@ -1,0 +1,36 @@
+@import url('https://deltarune.com');
+@import url('https://googleapis.com');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#000000;
+	/*Dark Darker Yet Darker*/
+	/**/
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image-rendering: pixelated;
+}   
+
+h1{
+    margin: 0;
+	text-align: center;
+	color: #000305;
+	font-family:  'Press Start 2P', sans-serif;
+}
+
+.darkWorld{
+    height: 100;
+    display: grid;
+    place-items: center;
+}
+
+li{
+	background: #333333;
+	color: #00ff77;
+}
